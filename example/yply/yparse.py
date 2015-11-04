@@ -20,9 +20,9 @@ def p_defsection(p):
     '''defsection : definitions SECTION
                   | SECTION'''
     p.lexer.lastsection = 1
-    print("tokens =  {}".format(repr(tokenlist)))
+    print("tokens = {}".format(repr(tokenlist)))
     print("")
-    print("precedence =  {}".format(repr(preclist)))
+    print("precedence = {}".format(repr(preclist)))
     print("")
     print("# -------------- RULES ----------------")
     print("")
